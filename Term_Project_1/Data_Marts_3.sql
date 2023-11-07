@@ -97,7 +97,7 @@ select * from ResellerPerformance;
 -- Description: Evaluate salesperson performance (sum of sales) by region and country.
 -- 000
 
--- Drop the ResellerPerformance view if it exists
+-- Drop the SalesPersonPerformance view if it exists
 DROP VIEW IF EXISTS SalesPersonPerformance;
 
 -- Create a new view called ResellerPerformance
