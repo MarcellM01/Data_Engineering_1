@@ -12,7 +12,7 @@ Although the dataset was originally published in 2008, the version being used fo
 
 
 
-## Operational Layer [1_Operational_Layer]:
+## Operational Layer [Operational_Layer_1](https://github.com/MarcellM01/Data_Engineering_1/Term_Project_1/Operational_Layer_1.sql):
 
 My operational layer consists of 6 tables. The structure for these tables is created, and their contents are loaded within the operational layer file itself,
 for the ease of reproducibility. The original dataset covers sales data for over 52 thousand transactions, this was trimmed down to a more manageable 800 
@@ -49,7 +49,7 @@ These tables collectively form the operational layer of the database and serve a
 The EER diagram depicted here is a representation of the star schema created by utilizing the "sales_shortened" table as the main table
 ![A_W_EER_Diagram](https://github.com/MarcellM01/Data_Engineering_1/assets/9119122/44d5bf0a-701f-42e6-8277-1eac79ea47e7)
 
-## Analytics Plan and Analytical Layer [2_Analytical_Layer]:
+## Analytics Plan and Analytical Layer [Analytical_Layer_2](https://github.com/MarcellM01/Data_Engineering_1/Term_Project_1/Analytical_Layer_2.sql):
 
 Before the analytical plan was formulated, the datasets were thoroughly analyzed in mySQL where familiarity with the data columns,
 rows, and primary keys was gained. Is involved creating one huge table through a series of inner joins that contained
@@ -75,10 +75,20 @@ analytical layer creation process.
 
 **Important:** An additional table, namely the "messages" table is created when calling the "InsertNewSaleProc procedure", this stores the transaction numbers. 
 
-## Data Marts [3_Data_Marts]:
+## Data Marts [Data_Marts_3](https://github.com/MarcellM01/Data_Engineering_1/Term_Project_1/Data_Marts_3.sql):
 
-Their descriptions will be included here.
+**Data Mart 1: Product Performance**
 
+This data mart provides a comprehensive overview of product performance within the business. It includes aggregated measures of quantity sold, total revenue, total profit, and profit margin for each product. Key attributes include ProductKey, Product, Subcategory, and Category. With this information, businesses can identify their most profitable products and make informed decisions about inventory management, marketing strategies, and product development.
 
+**Data Mart 2: Sales By Region**
 
+The Sales By Region data mart is designed to uncover sales patterns across different geographic regions. It summarizes data to include the number of distinct resellers, total revenue, and quantity sold, with regional segmentation provided by attributes such as SalesTerritoryKey, Region, Country, and TerritoryGroup. This view is crucial for regional sales analysis and for formulating targeted sales strategies.
+
+**Data Mart 3: Reseller Performance**
+
+This data mart evaluates the performance of resellers by providing metrics like total revenue and quantity sold, alongside demographic information such as state and country of origin. The view encapsulates details on the ResellerKey, ResellerName, ResellerBusinessType, ResellerCity, ResellerState, and ResellerCountry. It serves as a tool for assessing the reseller channel's contribution to the business and optimizing channel strategies.
+
+**Data Mart 4: SalesPerson Performance**
+Focusing on individual performance metrics, the SalesPerson Performance data mart ranks salespersons based on the sum of sales (denoted as 'Performance'), further segmented by region and country. It includes details like the Salesperson name alongside their respective Region and Country. This information is vital for sales management, allowing for performance tracking, incentivization, and identifying areas needing sales support or additional training.
 
