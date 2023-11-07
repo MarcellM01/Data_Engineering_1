@@ -57,7 +57,7 @@ The EER diagram depicted here is a representation of the star schema created by 
 ## Analytics Plan and Analytical Layer [Analytical_Layer_2](https://github.com/MarcellM01/Data_Engineering_1/blob/main/Term_Project_1/Analytical_layer_2.sql):
 
 Before the analytical plan was formulated, the datasets were thoroughly analyzed in mySQL where familiarity with the data columns,
-rows, and primary keys was gained. Is involved creating one huge table through a series of inner joins that contained
+rows, and primary keys was gained. It involved creating one huge table through a series of inner joins that contained
 all of the columns of all 6 tables in one common table, which would later see the irrelevant columns excluded as part of the 
 analytical layer creation process.
 
