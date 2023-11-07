@@ -2,7 +2,12 @@
 
 **Author: Marcell Magda**
 
-**Date: 2023**
+**Year Created: 2023**
+
+**Project Files:**
+- Operational Layer [Operational_Layer_1](https://github.com/MarcellM01/Data_Engineering_1/blob/main/Term_Project_1/Operational_Layer_1.sql)
+- Analytical Layer and ETL Pipeline [Analytical_Layer_2](https://github.com/MarcellM01/Data_Engineering_1/blob/main/Term_Project_1/Analytical_layer_2.sql)
+- Data Marts [Data_Marts_3](https://github.com/MarcellM01/Data_Engineering_1/blob/main/Term_Project_1/Data_Marts_3.sql)
 
 ## Dataset Related Information:
 The dataset being used was imported from [kaggle.com](https://www.kaggle.com/datasets/algorismus/adventure-works-in-excel-tables) and is based on Microsoft's Adventure Works SQL database, a sample database created by the software
