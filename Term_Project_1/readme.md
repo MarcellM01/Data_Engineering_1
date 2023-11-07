@@ -49,7 +49,7 @@ These tables collectively form the operational layer of the database and serve a
 The EER diagram depicted here is a representation of the star schema created by utilizing the "sales_shortened" table as the main table
 ![A_W_EER_Diagram](https://github.com/MarcellM01/Data_Engineering_1/assets/9119122/44d5bf0a-701f-42e6-8277-1eac79ea47e7)
 
-## Analytics Plan and Analytical Layer [Analytical_Layer_2](https://github.com/MarcellM01/Data_Engineering_1/blob/main/Term_Project_1/Analytical_Layer_2.sql):
+## Analytics Plan and Analytical Layer [Analytical_Layer_2](https://github.com/MarcellM01/Data_Engineering_1/blob/main/Term_Project_1/Analytical_layer_2.sql):
 
 Before the analytical plan was formulated, the datasets were thoroughly analyzed in mySQL where familiarity with the data columns,
 rows, and primary keys was gained. Is involved creating one huge table through a series of inner joins that contained
