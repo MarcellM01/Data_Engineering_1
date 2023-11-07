@@ -12,7 +12,7 @@ Although the dataset was originally published in 2008, the version being used fo
 
 
 
-## Operational Layer [Operational_Layer_1](https://github.com/MarcellM01/Data_Engineering_1/Term_Project_1/Operational_Layer_1.sql):
+## Operational Layer [Operational_Layer_1](https://github.com/MarcellM01/Data_Engineering_1/blob/main/Term_Project_1/Operational_Layer_1.sql):
 
 My operational layer consists of 6 tables. The structure for these tables is created, and their contents are loaded within the operational layer file itself,
 for the ease of reproducibility. The original dataset covers sales data for over 52 thousand transactions, this was trimmed down to a more manageable 800 
@@ -49,7 +49,7 @@ These tables collectively form the operational layer of the database and serve a
 The EER diagram depicted here is a representation of the star schema created by utilizing the "sales_shortened" table as the main table
 ![A_W_EER_Diagram](https://github.com/MarcellM01/Data_Engineering_1/assets/9119122/44d5bf0a-701f-42e6-8277-1eac79ea47e7)
 
-## Analytics Plan and Analytical Layer [Analytical_Layer_2](https://github.com/MarcellM01/Data_Engineering_1/Term_Project_1/Analytical_Layer_2.sql):
+## Analytics Plan and Analytical Layer [Analytical_Layer_2](https://github.com/MarcellM01/Data_Engineering_1/blob/main/Term_Project_1/Analytical_Layer_2.sql):
 
 Before the analytical plan was formulated, the datasets were thoroughly analyzed in mySQL where familiarity with the data columns,
 rows, and primary keys was gained. Is involved creating one huge table through a series of inner joins that contained
@@ -75,7 +75,7 @@ analytical layer creation process.
 
 **Important:** An additional table, namely the "messages" table is created when calling the "InsertNewSaleProc procedure", this stores the transaction numbers. 
 
-## Data Marts [Data_Marts_3](https://github.com/MarcellM01/Data_Engineering_1/Term_Project_1/Data_Marts_3.sql):
+## Data Marts [Data_Marts_3](https://github.com/MarcellM01/Data_Engineering_1/blob/main/Term_Project_1/Data_Marts_3.sql):
 
 **Data Mart 1: Product Performance**
 
