@@ -95,5 +95,6 @@ The Sales By Region data mart is designed to uncover sales patterns across diffe
 This data mart evaluates the performance of resellers by providing metrics like total revenue and quantity sold, alongside demographic information such as state and country of origin. The view encapsulates details on the ResellerKey, ResellerName, ResellerBusinessType, ResellerCity, ResellerState, and ResellerCountry. It serves as a tool for assessing the reseller channel's contribution to the business and optimizing channel strategies.
 
 **Data Mart 4: SalesPerson Performance**
+
 Focusing on individual performance metrics, the SalesPerson Performance data mart ranks salespersons based on the sum of sales (denoted as 'Performance'), further segmented by region and country. It includes details like the Salesperson name alongside their respective Region and Country. This information is vital for sales management, allowing for performance tracking, incentivization, and identifying areas needing sales support or additional training.
 
