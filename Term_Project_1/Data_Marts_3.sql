@@ -2,6 +2,9 @@
 -- CREATING DATA MARTS
 -- 000000
 
+-- Use the correct schema
+USE adventure_works_2022;
+
 -- 000
 -- DATA MART 1 - Product Performance
 -- 000
